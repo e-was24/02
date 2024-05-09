@@ -1,12 +1,1 @@
 
-.nav-butt {
-    text-decoration: none;
-    color: white;
-}
-
-.nav-butt:hover {
-    color: goldenrod;
-    transition: .3s ease-in-out;
-    transition-delay: .4s;
-    border-radius: 9%;
-}
