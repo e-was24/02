@@ -2,7 +2,7 @@
 
 <head>
   <link rel="stylesheet" href="index.css">
-
+  <link rel="stylesheet" href="style.js">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -13,18 +13,30 @@
   <div>
     <!-- navbar -->
     <nav class="navbar bg-body-tertiary">
-      <div class="container-fluid bg-info">
-        <a class="navbar-brand text-white ml-2"> Hallo</a>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2 mt-5" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success mt-5" type="submit">Search</button>
-        </form>
+      <div class="container-fluid bg-dark">
+        <a class="navbar-brand text-white ml-2"></a>
+        <form class="d-flex" role="search"></form>
+        <ul class="">
+          <li class="li-time mt-3">
+            <a id="Clock"></a>
+            <script src="style.js"></script>
+          </li>
+        </ul>
       </div>
     </nav>
     <!-- navbar -->
     <!-- content -->
-    <div class="container mt-3">
+    <div class=" mt-3">
       <div class="row">
+        <div class="card col-sm-3">
+          <h5 class="card-header bg-dark text-white">#1</h5>
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <img src="7.png" class="img-thumbnail" alt="...">
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="index2.html" class="btn btn-primary">Open</a>
+          </div>
+        </div>
         <div class="card col-sm-3">
           <h5 class="card-header bg-dark text-white">#1</h5>
           <div class="card-body">
@@ -34,41 +46,45 @@
             <a href="#" class="btn btn-primary">Open</a>
           </div>
         </div>
-
         <div class="card col-sm-3">
-          <h5 class="card-header">Featured</h5>
+          <h5 class="card-header bg-dark text-white">#1</h5>
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <img src="7.png" class="img-thumbnail" alt="...">
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
-
-        <div class="card col-sm-3">
-          <h5 class="card-header">Featured</h5>
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <img src="7.png" class="img-thumbnail" alt="...">
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary">Open</a>
           </div>
         </div>
         <div class="card col-sm-3">
-          <h5 class="card-header">Featured</h5>
+          <h5 class="card-header bg-dark text-white">#1</h5>
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
             <img src="7.png" class="img-thumbnail" alt="...">
             <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <a href="#" class="btn btn-primary">Open</a>
           </div>
         </div>
       </div>
+
       <!-- content end -->
       <!-- footer -->
+      <div class="mt-5">
 
-      <!-- footer end -->
+      </div>
+      <!-- tes js -->
     </div>
+    <!-- tes js end -->
+    <ul class="ul-footer col-sm-12">
+      <li class="li-footer">
+        <h2 class="h2-footer">Atantion</h2>
+        <h5 class="h5-footer">Esta página web se encuentra en desarrollo
+          Si hay un error en el sitio por favor repórtelo. u otra opción es tener paciencia hasta que se completen las
+          reparaciones</h5>
+      </li>
+    </ul>
+  </div>
+  <!-- footer end -->
+  </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
