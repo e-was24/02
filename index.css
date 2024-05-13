@@ -1,1 +1,33 @@
+.li-footer {
+    list-style: none;
+    background-color: rgba(192, 192, 192, 0.2 );
+    border-radius: 8%;
+    padding: 9%;
+}
+.h2-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(169, 169, 169, 0.2);
+    width: 20%;
+    border-radius: 9%;
+}
+
+.h5-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-time {
+    list-style: none;
+    background-color: aliceblue;
+    border: 2px solid black;
+    width: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
